@@ -371,6 +371,7 @@ export const mapboxStyle = {
     clearable: false,
     renderTrigger: true,
     choices: [
+      ['/static/assets/images/openaip-default-style.json', t('OpenAIP')],
       ['mapbox://styles/mapbox/streets-v9', t('Streets')],
       ['mapbox://styles/mapbox/dark-v9', t('Dark')],
       ['mapbox://styles/mapbox/light-v9', t('Light')],
